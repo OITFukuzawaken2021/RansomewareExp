@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="css/a.css" rel="stylesheet" type="text/css">
+<linkhref="css/reset.css" rel="stylesheet">
+</head>
+<body>
+
+
+
+	<h1 align="center">
+	<span>ジャンル選択</span>
+	</h1>
+
+
+
+
+    <div class="inner1">
+        <div class="content1">
+		<a href="./yakyuu.html" style="text-decoration:none;" class="btn-square">野球</a>
+	</div><!--content1-->
+    </div><!--inner1-->
+
+
+    <div class="inner2">
+        <div class="content2">
+		<a href="./rikuzyou.html" style="text-decoration:none;" class="btn-square">陸上</a>
+	</div><!--content2-->
+    </div><!--inner2-->
+
+    <div class="inner3">
+        <div class="content3">
+		<a href="./mannga.html" style="text-decoration:none;" class="btn-square">漫画</a>
+	</div><!--content3-->
+    </div><!--inner3-->
+
+    <div class="inner4">
+        <div class="content4">
+		<a href="./sixtones.html" style="text-decoration:none;" class="btn-square">sixtones</a>
+	</div><!--content4-->
+    </div><!--inner4-->
+
+	<div class="inner-back">
+    <input type="button" onclick="window.history.back();" value="戻る">
+	</div>
+
+                
+
+</body>
+</html>
+
