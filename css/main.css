@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+body{
+    background-size: cover;
+}
+
+div{
+    margin: 10px;
+}
+
+/*アイコンの設定*/
+/*テキスト1の位置調整*/
+#text1{
+    margin-top: 20px;
+}
+
+/*各アイコンの共通設定*/
+.icon{
+    width: 100px;
+    height: 120px;
+
+    padding: 10px;
+}
+
+.icon img{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
+
+.icon span{
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+/*ホバー時のハイライト表示*/
+#text1:hover{
+    background-color: #ccc;
+}
+
+#text2:hover{
+    background-color: #ccc;
+}
+
+#mail:hover{
+    background-color: #ccc;
+}
+
+#SE:hover{
+    background-color: #ccc;
+}
+
+/*ポップアップウインドウの共通設定*/
+.popup{
+    display: none;
+    background-color: white;
+    color: black;
+
+    border: 5px solid #bbb;
+    height: 60%;
+    width: 60%;
+    position: fixed;
+    top:15%;
+    left:20%;
+}
+
+/*ポップアップウインドウのヘッダー設定*/
+#header{
+    margin: 0px;
+    background-color: #bbb;
+
+    font-size: 20px;
+    padding: 3px;
+    float: none;
+}
+
+#header input{
+    float: right;
+    font-size: 20px;
+}
+
+/*ウインドウのフッター設定*/    
+#footer{
+    background-color: #444;
+    color: white;
+
+    height: 5%;
+    width: 100%;
+    position: fixed;
+    top: 95%;
+    left: -10px;
+}
+
+#footer span{
+    padding-top: 3px;
+    padding-right: 10px;
+    font-size: 20px;
+    float: right;
+}
