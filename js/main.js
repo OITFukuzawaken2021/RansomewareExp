@@ -29,10 +29,16 @@ function CloseMailContent(){
 //検索エンジンの表示
 function pushSE(){
     document.getElementById("SEContent").style.display="block";
+    document.getElementById("link").innerHTML="/html/SEFrame.html";
 }
 //検索エンジンの非表示
 function CloseSEContent(){
     document.getElementById("SEContent").style.display="none";
+}
+
+//リンク情報の書き換え
+document.getElementById("BackToHome").onclick = function(){
+    document.getElementById("link").innerHTML="/html/SEFrame.html";
 }
 
 //onload関数の定義

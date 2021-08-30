@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body{
+    background-color: #555555;
+    color: white;
+}
+p{
+    text-align: center;
+}
+table{
+    text-align: center;
+}
+.title{
+    font-size: 50px;
+}
+#text{
+    margin-right: none;
+    padding-right: none;
+}
+#button{
+    margin-left: none;
+    padding-left: none;
+}
+td{
+    padding: 30px;
+}

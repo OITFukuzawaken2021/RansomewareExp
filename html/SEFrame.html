@@ -2,37 +2,26 @@
 <head>
     <meta charset="UTF-8">
     <link href="../css/main.css" rel="stylesheet">
-    <style type="text/css">
-        body{
-            background-color: #555555;
-            color: white;
-        }
-        p{
-            text-align: center;
-        }
-        .title{
-            font-size: 50px;
-        }
-        #text{
-            margin-right: none;
-            padding-right: none;
-        }
-        #button{
-            margin-left: none;
-            padding-left: none;
-        }
-        a{
-            padding: 30px;
-        }
-    </style>
+    <link href="../css/SEFrame.css" rel="stylesheet">
+    <script type="text/javascript" src="../js/SEFrame.js"></script>
 </head>
 <body>
     <p class="title">G00GL3</p>
     <p><input type="text" id="text"/>
     <input type="button" id="button" value="検索"/></p>
-    <p>
-        <a href="http://www.oit.ac.jp/" target="">OIT</a>
-        <a href="https://www.oit.ac.jp/laboratory/room/254" target="">情報セキュリティ研究室</a>
-        <a href="ransam.html" target="">やばいわよ!!!</a>
-    </p>
+    <table id="ShoerCut" cellspacing="0">
+        <tr>
+            <!--ここにショートカットアイコンを置く-->
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="http://www.oit.ac.jp/" target="" id="OITHP">大阪工業大学HP</a></td>
+            <td><a href="https://www.oit.ac.jp/laboratory/room/254" target="" id="ISHP">情報セキュリティ研究室HP</a></td>
+            <td><a href="ransam.html" target="" id="RANSAMHP">やばいわよ!!!</a></td>
+            <td>ショートカット作成</td>
+        </tr>
+    </table>
 </body>
