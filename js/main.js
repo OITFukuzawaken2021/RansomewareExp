@@ -36,6 +36,15 @@ function CloseSEContent(){
     document.getElementById("SEContent").style.display="none";
 }
 
+//警告の表示
+function pushkeikoku(){
+    document.getElementById("keikokuContent").style.display="block";
+}
+//警告の非表示
+function ClosekeikokuContent(){
+    document.getElementById("keikokuContent").style.display="none";
+}
+
 //リンク情報の書き換え
 document.getElementById("BackToHome").onclick = function(){
     document.getElementById("link").innerHTML="/html/SEFrame.html";
