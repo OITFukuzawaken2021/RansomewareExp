@@ -8,6 +8,11 @@ div{
     margin: 10px;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
 /*アイコンの設定*/
 /*テキスト1の位置調整*/
 #text1{
@@ -62,21 +67,53 @@ div{
     position: fixed;
     top:15%;
     left:20%;
+
+}
+
+#SEContent{
+    border-color: #333333;
+    color: white;
 }
 
 /*ポップアップウインドウのヘッダー設定*/
 #header{
     margin: 0px;
     background-color: #bbb;
+    width: 100%;
 
-    font-size: 20px;
-    padding: 3px;
+    height: 10%;
+    border: none;
+    padding: none;
+    margin: none;
+    top: 0%;
     float: none;
+    position: absolute;
+
 }
 
 #header input{
     float: right;
-    font-size: 20px;
+}
+
+#header table{
+    font-size: 10px;
+}
+
+/*iframe用設定*/
+#SEContent iframe{
+    height: 90%;
+    top: 10%;
+
+    border: none;
+    padding: none;
+    margin: none;
+
+    position: absolute;
+}
+
+#SEContent input{
+    background-color: #333333;
+    color: white;
 }
 
 /*ウインドウのフッター設定*/    
