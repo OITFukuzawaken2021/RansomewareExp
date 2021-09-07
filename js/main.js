@@ -37,7 +37,7 @@ function CloseSEContent(){
 }
 
 //リンク情報の書き換え
-document.getElementById("BackToHome").onclick = function(){
+function toHP(){
     document.getElementById("link").innerHTML="https://oitfukuzawaken2021.github.io/RansomewareExp/html/SEFrame.html";
 }
 
