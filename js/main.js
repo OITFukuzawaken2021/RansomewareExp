@@ -36,6 +36,16 @@ function CloseSEContent(){
     document.getElementById("SEContent").style.display="none";
 }
 
+//警告エンジンの表示
+function pushkeikoku(){
+    document.getElementById("keikokuContent").style.display="block";
+}
+//警告エンジンの非表示
+function Closekeikoku(){
+    document.getElementById("keikokuContent").style.display="none";
+}
+
+
 //リンク情報の書き換え
 function toHP(){
     document.getElementById("link").innerHTML="https://oitfukuzawaken2021.github.io/RansomewareExp/html/SEFrame.html";
