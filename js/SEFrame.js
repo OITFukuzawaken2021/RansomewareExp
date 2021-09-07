@@ -1,6 +1,6 @@
 function toOITHP(){
     //ここで親要素の#linkを書き換えたい
-    parent.document.getElementById("link").innerHTML="http://www.oit.ac.jp/";
+    parent.document.getElementById("link").innerHTML="https://www.oit.ac.jp/";
 }
 
 function toISHP(){
