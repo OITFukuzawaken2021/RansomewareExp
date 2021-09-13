@@ -8,7 +8,8 @@ function toISHP(){
     parent.document.getElementById("link").innerHTML="https://www.oit.ac.jp/laboratory/room/254";
 }
 
-function toRANSAMHP(){
+function toRANSOMHP(){
     //ここで親要素の#linkを書き換えたい
     parent.document.getElementById("link").innerHTML="https://oitfukuzawaken2021.github.io/RansomewareExp/html/ransam.html";
+    parent.document.getElementById("pop-up").checked = true;
 }

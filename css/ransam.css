@@ -4,3 +4,16 @@ body{
     background-color: #555555;
     color: white;
 }
+
+.text{
+    float: left;
+    padding: 50px;
+}
+
+.title{
+    color: #dddd33;
+}
+
+strong{
+    color: #dd7777;
+}

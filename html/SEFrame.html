@@ -7,21 +7,32 @@
 </head>
 <body>
     <p class="title">G00GL3</p>
-    <p><input type="text" id="text"/>
-    <input type="button" id="button" value="検索"/></p>
+    <p><input type="text" id="text" class="input" readonly/>
+    <input type="button" class="input" value="検索"/></p>
     <table id="ShoerCut" cellspacing="0">
         <tr>
-            <!--ここにショートカットアイコンを置く-->
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td><a href="https://www.oit.ac.jp/" target="" id="OITHP" onclick="toOITHP();">大阪工業大学HP</a></td>
-            <td><a href="https://www.oit.ac.jp/laboratory/room/254" target="" id="ISHP" onclick="toISHP();">情報セキュリティ研究室HP</a></td>
-            <td><a href="ransam.html" target="" id="RANSAMHP" onclick="toRANSAMHP();">やばいわよ!!!</a></td>
-            <td>ショートカット作成</td>
+            <td onclick="toOITHP();">
+                <a href="https://www.oit.ac.jp/" target="" id="OITHP">
+                    <img src="../images/oit_logo.ico" width="40px" height="40px">
+                    <br>大阪工業大学HP
+                </a>
+            </td>
+            <td onclick="toISHP();">
+                <a href="https://www.oit.ac.jp/laboratory/room/254" target="" id="ISHP">
+                    <img src="../images/oit_logo.ico" width="40px" height="40px">
+                    <br>情報セキュリティ研究室HP
+                </a>
+            </td>
+            <td onclick="toRANSOMHP();">
+                <a href="ransam.html" target="" id="RANSOMHP">
+                    <!--ここにショートカットアイコンを置く-->
+                    <br>やばいわよ!!!
+                </a>
+            </td>
+            <td>
+                <!--ここにショートカットアイコンを置く--><br>
+                <p>ショートカット作成</p>
+            </td>
         </tr>
     </table>
 </body>
