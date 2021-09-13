@@ -10,6 +10,6 @@ function toISHP(){
 
 function toRANSOMHP(){
     //ここで親要素の#linkを書き換えたい
-    parent.document.getElementById("link").innerHTML="https://oitfukuzawaken2021.github.io/RansomewareExp/html/ransam.html";
+    parent.document.getElementById("link").innerHTML="https://oitfukuzawaken2021.github.io/RansomwareExp/html/ransom.html";
     parent.document.getElementById("pop-up").checked = true;
 }
