@@ -31,6 +31,11 @@
             <span>CHR0M3</span>
             <br>
         </div>
+        <div id="readme" class="icon" ondblclick="pushReadme()">
+            <!---->
+            <span>Read me</span>
+            <br>
+        </div>
 
 
         <!--各ポップアップウインドウの準備-->
@@ -69,6 +74,12 @@
             </table>
             <iframe name="SEFrame" src="html/SEFrame.html" width="100%" height="95%">
             </iframe>
+        </div>
+        <div id="readmeContent" class="popup">
+            <p id="header">readmeのタイトル
+                <input type="button" value="x" onclick="CloseReadmeContent()"/>
+            </p>
+            <p>readmeの内容</p>
         </div>
 
         <label class="open" for="pop-up">警告(仮)</label>

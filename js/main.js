@@ -46,6 +46,14 @@ function Closekeikoku(){
     document.getElementById("keikokuContent").style.display="none";
 }
 
+function pushReadmeContent(){
+    document.getElementById("readmeContent").style.display="block";
+}
+
+//
+function CloseReadmeContent(){
+    document.getElementById("readmeContent").style.display="none";
+}
 
 //リンク情報の書き換え
 function toHP(){
@@ -57,6 +65,8 @@ function toHP(){
 onload = function(){
     timer();
     window.setInterval("timer()", 1000);
+
+    this.document.getElementById("readmeContent").style.display="block";
 }
 
 //現在時間の表示

@@ -55,6 +55,10 @@ a{
     background-color: #ccc;
 }
 
+#readme:hover{
+    background-color: #ccc;
+}
+
 /*ポップアップウインドウの共通設定*/
 .popup{
     display: none;
@@ -67,7 +71,6 @@ a{
     position: fixed;
     top:15%;
     left:20%;
-    
 }
 
 #SEContent{
