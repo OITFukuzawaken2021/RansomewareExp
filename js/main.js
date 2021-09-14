@@ -46,11 +46,12 @@ function Closekeikoku(){
     document.getElementById("keikokuContent").style.display="none";
 }
 
-function pushReadmeContent(){
+//説明ページの表示
+function pushReadme(){
     document.getElementById("readmeContent").style.display="block";
 }
 
-//
+//説明ページの非表示
 function CloseReadmeContent(){
     document.getElementById("readmeContent").style.display="none";
 }
@@ -63,9 +64,11 @@ function toHP(){
 
 //onload関数の定義
 onload = function(){
+    //ページ下部の時計表示開始
     timer();
     window.setInterval("timer()", 1000);
 
+    //説明ページの表示
     this.document.getElementById("readmeContent").style.display="block";
 }
 
