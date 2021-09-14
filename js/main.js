@@ -29,6 +29,7 @@ function CloseMailContent(){
 //検索エンジンの表示
 function pushSE(){
     document.getElementById("SEContent").style.display="block";
+    document.getElementById("title").innerHTML="新しいタブ";
     document.getElementById("link").innerHTML="https://oitfukuzawaken2021.github.io/RansomwareExp/html/SEFrame.html";
 }
 //検索エンジンの非表示
@@ -48,6 +49,7 @@ function Closekeikoku(){
 
 //リンク情報の書き換え
 function toHP(){
+    document.getElementById("title").innerHTML="新しいタブ";
     document.getElementById("link").innerHTML="https://oitfukuzawaken2021.github.io/RansomwareExp/html/SEFrame.html";
 }
 
