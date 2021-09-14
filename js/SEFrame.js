@@ -6,7 +6,7 @@ function toOITHP(){
 
 function toISHP(){
     //ここで親要素の#titleと#linkを書き換え
-    parent.document.getElementById("title").innerHTML="情報セキュリティ研究室";
+    parent.document.getElementById("title").innerHTML="研究室";
     parent.document.getElementById("link").innerHTML="https://www.oit.ac.jp/laboratory/room/254";
 }
 
