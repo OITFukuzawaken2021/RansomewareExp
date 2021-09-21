@@ -38,27 +38,17 @@ a{
     font-size: 20px;
 }
 
+/*readmeアイコン用設定*/
+#readme span{
+    font-size: 15px;
+}
+
 /*ホバー時のハイライト表示*/
-#text1:hover{
+.icon:hover{
     background-color: #ccc;
 }
 
-#text2:hover{
-    background-color: #ccc;
-}
-
-#mail:hover{
-    background-color: #ccc;
-}
-
-#SE:hover{
-    background-color: #ccc;
-}
-
-#readme:hover{
-    background-color: #ccc;
-}
-
+/*ポップアップウィンドウの設定*/
 /*ポップアップウインドウの共通設定*/
 .popup{
     display: none;
@@ -73,39 +63,52 @@ a{
     left:20%;
 }
 
+/*SEContent用設定*/
 #SEContent{
     border-color: #333333;
     color: white;
 }
 
 /*ポップアップウインドウのヘッダー設定*/
-#header{
+/*ポップアップウインドウのヘッダー共通設定*/
+.header{
     margin: 0px;
     background-color: #bbb;
     width: 100%;
 
-    height: 10%;
+    height: 5%;
     border: none;
     padding: none;
     margin: none;
     top: 0%;
     float: none;
-    position: absolute;
-
+    position:relative;
 }
 
-#header input{
+.header input{
     float: right;
 }
 
-#header table{
+.header table{
+    height: 10%;
     font-size: 10px;
 }
 
-/*iframe用設定*/
-#SEContent iframe{
-    height: 90%;
-    top: 10%;
+.header p{
+    font-size: 20px;
+}
+
+/*SEContent用設定*/
+#SEContent input{
+    background-color: #333333;
+    color: white;
+}
+
+/*iframeの設定*/
+/*iframeの共通設定*/
+.iframe{
+    height: 95%;
+    top: 5%;
 
     border: none;
     padding: none;
@@ -114,9 +117,10 @@ a{
     position: absolute;
 }
 
-#SEContent input{
-    background-color: #333333;
-    color: white;
+/*SEContent用設定*/
+#SEContent iframe{
+    height: 90%;
+    top: 10%;
 }
 
 /*ウインドウのフッター設定*/    
