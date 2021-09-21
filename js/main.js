@@ -96,3 +96,6 @@ function timer(){
 
     document.getElementById("timer").innerHTML = time;
 }
+
+
+   
