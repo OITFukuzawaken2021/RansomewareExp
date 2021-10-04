@@ -162,8 +162,8 @@ a{
 }
 .window {
 	width: 110vw;
-	max-width: 880px;
-	height: 790px;
+	max-width: 680px;
+	height: 810px;
 	background-color: #000000;
 	border-radius: 6px;
 	display: flex;
