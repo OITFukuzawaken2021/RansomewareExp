@@ -25,6 +25,7 @@ a{
     height: 100px;
 
     padding: 10px;
+    z-index: 20;
 }
 
 .icon img{
@@ -188,3 +189,31 @@ a{
 	font-size: 20px;
 }
 /*警告文関係ここまで\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/*メール関連*/
+#mailContent{
+    display:none;
+    position:fixed;
+    top: 10%;
+    left:20%;   
+}
+
+.Inbox{
+    margin:0%;
+}
+
+#header2{
+    margin: 0px;
+    background-color: #bbb;
+    width: 100%;
+    border: none;
+    padding: none;
+    margin: none;
+    top: -2%;
+    float: none;
+    position: absolute;
+
+}
+
+#header2 input{
+    float: right;
+}
