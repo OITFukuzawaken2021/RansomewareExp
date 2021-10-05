@@ -25,6 +25,7 @@ a{
     height: 100px;
 
     padding: 10px;
+    z-index: 20;
 }
 
 .icon img{
@@ -198,30 +199,59 @@ a{
 
 
     
-    .ttl {
-    color: #ffffff;
-    font-size: 28px;
-    font-weight: 600;
-    text-align: center;
-    margin: 0;
-    line-height: 1.5;
-    }
-    
-    .keikoku1 {
-    background: #d00000;
+.ttl {
+color: #ffffff;
+font-size: 28px;
+font-weight: 600;
+text-align: center;
+margin: 0;
+line-height: 1.5;
+}
+
+.keikoku1 {
+background: #d00000;
+margin: 5px auto;
+padding: 5px;
+}
+
+.keikoku2 {
+    background: #1f0027;
     margin: 5px auto;
     padding: 5px;
-    }
+}
 
-    .keikoku2 {
-        background: #1f0027;
-        margin: 5px auto;
-        padding: 5px;
-        }
-
-        .keikoku3 {
-            background: #000000;
-            margin: 5px auto;
-            padding: 5px;
-            }
+.keikoku3 {
+    background: #000000;
+    margin: 5px auto;
+    padding: 5px;
+}
 /*警告文関係ここまで\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/*警告文関係ここまで\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/*メール関連*/
+#mailContent{
+    display:none;
+    position:fixed;
+    top: 10%;
+    left:20%;   
+}
+
+.Inbox{
+    margin:0%;
+}
+
+#header2{
+    margin: 0px;
+    background-color: #bbb;
+    width: 100%;
+    border: none;
+    padding: none;
+    margin: none;
+    top: -2%;
+    float: none;
+    position: absolute;
+
+}
+
+#header2 input{
+    float: right;
+}

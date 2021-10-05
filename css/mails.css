@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+p{
+    text-align: left;
+    font-size: 13px;
+}
+
+b{
+    text-align: left;
+    font-size: 10px;
+}
+h6{
+ color:#ccc;
+ margin: 0%;
+}
