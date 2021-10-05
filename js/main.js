@@ -28,11 +28,14 @@ function CloseMailContent(){
     document.getElementById("mailContent").style.display="none";
 }
 
+//検索エンジン用のURLの定義
+url = "https://oitfukuzawaken2021.github.io/RansomwareExp/html/SEFrame.html";
+
 //検索エンジンの表示
 function pushSE(){
     document.getElementById("SEContent").style.display="block";
     document.getElementById("title").innerHTML="新しいタブ";
-    document.getElementById("link").innerHTML="https://oitfukuzawaken2021.github.io/RansomwareExp/html/SEFrame.html";
+    document.getElementById("link").innerHTML=url;
 }
 //検索エンジンの非表示
 function CloseSEContent(){
@@ -61,7 +64,7 @@ function CloseReadmeContent(){
 //リンク情報の書き換え
 function toHP(){
     document.getElementById("title").innerHTML="新しいタブ";
-    document.getElementById("link").innerHTML="https://oitfukuzawaken2021.github.io/RansomwareExp/html/SEFrame.html";
+    document.getElementById("link").innerHTML=url;
 }
 
 //onload関数の定義
@@ -98,6 +101,3 @@ function timer(){
 
     document.getElementById("timer").innerHTML = time;
 }
-
-
-   

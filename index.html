@@ -11,39 +11,46 @@
     </head>
     <body background="images/desktop.jfif">
         <!--各アイコンの表示-->
+        <!--text1-->
         <div id="text1" class="icon" ondblclick="pushText1()">
             <img src="images/TextIcon.png">
             <span>text1</span>
             <br>
         </div>
+        <!--text2-->
         <div id="text2" class="icon" ondblclick="pushText2()">
             <img src="images/TextIcon.png">
             <span>text2</span>
             <br>
         </div>
+        <!--mail-->
         <div id="mail" class="icon" ondblclick="pushMail()">
             <img src="images/MailIcon.png">
             <span>E-mail</span>
             <br>
         </div>
+        <!--seach engine-->
         <div id="SE" class="icon" ondblclick="pushSE()">
             <img src="images/SEIcon.png">
             <span>CHR0M3</span>
             <br>
         </div>
+        <!--readme-->
         <div id="readme" class="icon" ondblclick="pushReadme()">
-            <!---->
-            <span>Read me</span>
+            <img src="images/TextIcon.png">
+            <span>Readme.txt</span>
             <br>
         </div>
 
 
         <!--各ポップアップウインドウの準備-->
+        <!--text1-->
         <div id="textContent1" class="popup">
             <input type="button" value="x" onclick="CloseText1Content()"/>
             <iframe name="text1" src="html/text.html" width="100%" height="95%">
             </iframe>
         </div>
+        <!--text2-->
         <div id="textContent2" class="popup">
             <input type="button" value="x" onclick="CloseText2Content()"/>
             <iframe name="text1" src="html/text.html" width="100%" height="95%">
@@ -61,8 +68,9 @@
              src="https://oitfukuzawaken2021.github.io/RansomwareExp/html/mailbox.html">
            </iframe>
         </div>
+        <!--seach engine-->
         <div id="SEContent" class="popup">
-            <table id="header" width="100%" cellspacing="0">
+            <table class="header" width="100%" cellspacing="0">
                 <tr>
                     <td colspan="3" bgcolor="#555555"><span id="title"></span></td>
                     <td bgcolor="#333333"></td>
@@ -76,31 +84,35 @@
                     <td width="5%" bgcolor="#555555"></td>
                 </tr>
             </table>
-            <iframe name="SEFrame" src="html/SEFrame.html" width="100%" height="95%">
+            <iframe class="iframe" name="SEFrame" src="html/SEFrame.html" width="100%" height="95%">
             </iframe>
         </div>
+        <!--readme-->
         <div id="readmeContent" class="popup">
-            <p id="header">readmeのタイトル
+            <p class="header">readmeのタイトル
                 <input type="button" value="x" onclick="CloseReadmeContent()"/>
             </p>
-            <p>readmeの内容</p>
+            <iframe class="iframe" name="readmeFrame" src="html/readmeFrame.html">
+            </iframe>
         </div>
 
+        <!--警告ウィンドウ-->
         <label class="open" for="pop-up">警告(仮)</label>
         <input type="checkbox" id="pop-up">
         <div class="overlay">
             <div class="window">
                 <label class="close" for="pop-up">×</label>
                 <section class="text">
-                    <h1 style="text-align:center"><img src="images/drahi.jpg"alt="bit" width="70" height="70">        
-                    Ransomware
-                    <img src="images/drami.jpg"alt="bit" width="70" height="70">
+                    <h1 style="text-align:center">                    
+                        <img src="images/drahi.jpg"alt="bit" width="70" height="70"style="vertical-align: -20px;">                            
+                    Ransomware                    
+                    <img src="images/drami.jpg"alt="bit" width="70" height="70" style="vertical-align: -20px;">                    
                     </h1>
-                    <section class="keikoku2">
                     <h5>
                         　あなたのコンピュータ内の重要ファイルは全て暗号化しました。<br>
                         　元の状態へ戻したいのであれば以下の指示に従ってください。<br>
-                        　なお、指示に従わないのであれば数時間後に解除パスワードを削除します。<br>
+                        　なお、指示に従わないのであれば数時間後に解除パスワードを<br>
+                        　削除します。<br>
                     </h5>
                     <section class="keikoku1">
                         <p>
@@ -108,21 +120,22 @@
                         <img src="images/bitcoin.jpg"alt="bit" width="120" height="80">
                         <img src="images/bitcoin.jpg"alt="bit" width="120" height="80">
                         <img src="images/bitcoin.jpg"alt="bit" width="120" height="80">
-                            <h3 style="text-align:center" >address: MJUBBujn72872NJKNBbbef782bfhBiu</h3></p>
+                            <h3 style="text-align:center" >MJUBBujn72872NJKNBbbef782bfhBiu</h3></p>
                         
                         </section>
                     
                     <p>
+                        <div style="line-height: 1em;">
                         ・受け取ったパスワードを入力して下さい。
                         <form action="#" method="post">
                             <p>password：<br>
                             <input type="text" name="name">
                             <input type="button" value="暗号化解除" id="button2"></p>
                         </form>
-                        　
+                        </div>
                     
                     </p>
-                    </section>
+                    
                 </section>
             </div>
         </div>

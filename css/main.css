@@ -1,203 +1,244 @@
 @charset "UTF-8";
 
-body{
-    background-size: cover;
-}
+/*大画面用css*/
+@media screen and (min-width: 960px){
+    body{
+        background-size: cover;
+    }
 
-div{
-    margin: 10px;
-}
+    div{
+        margin: 10px;
+    }
 
-a{
-    color: white;
-    text-decoration: none;
-}
+    a{
+        color: white;
+        text-decoration: none;
+    }
 
-/*アイコンの設定*/
-/*テキスト1の位置調整*/
-#text1{
-    margin-top: 20px;
-}
+    /*アイコンの設定*/
+    /*テキスト1の位置調整*/
+    #text1{
+        margin-top: 20px;
+    }
 
-/*各アイコンの共通設定*/
-.icon{
-    width: 80px;
-    height: 100px;
+    /*各アイコンの共通設定*/
+    .icon{
+        width: 80px;
+        height: 100px;
 
     padding: 10px;
     z-index: 20;
 }
 
-.icon img{
-    background-color: white;
-    width: 80px;
-    height: 80px;
+    .icon img{
+        background-color: white;
+        width: 80px;
+        height: 80px;
+    }
+
+    .icon span{
+        margin-top: 0px;
+        font-size: 20px;
+    }
+
+    /*readmeアイコン用設定*/
+    #readme span{
+        font-size: 15px;
+    }
+
+    /*ホバー時のハイライト表示*/
+    .icon:hover{
+        background-color: #ccc;
+    }
+
+    /*ポップアップウィンドウの設定*/
+    /*ポップアップウインドウの共通設定*/
+    .popup{
+        display: none;
+        background-color: white;
+        color: black;
+
+        border: 5px solid #bbb;
+        height: 60%;
+        width: 60%;
+        position: fixed;
+        top:15%;
+        left:20%;
+    }
+
+    /*SEContent用設定*/
+    #SEContent{
+        border-color: #333333;
+        color: white;
+    }
+
+    /*ポップアップウインドウのヘッダー設定*/
+    /*ポップアップウインドウのヘッダー共通設定*/
+    .header{
+        margin: 0px;
+        background-color: #bbb;
+        width: 100%;
+
+        height: 5%;
+        border: none;
+        padding: none;
+        margin: none;
+        top: 0%;
+        float: none;
+        position:relative;
+    }
+
+    .header input{
+        float: right;
+    }
+
+    .header table{
+        height: 10%;
+        font-size: 10px;
+    }
+
+    .header p{
+        font-size: 20px;
+    }
+
+    /*SEContent用設定*/
+    #SEContent input{
+        background-color: #333333;
+        color: white;
+    }
+
+    /*iframeの設定*/
+    /*iframeの共通設定*/
+    .iframe{
+        height: 95%;
+        top: 5%;
+
+        border: none;
+        padding: none;
+        margin: none;
+
+        position: absolute;
+    }
+
+    /*SEContent用設定*/
+    #SEContent iframe{
+        height: 90%;
+        top: 10%;
+    }
+
+    /*ウインドウのフッター設定*/    
+    #footer{
+        background-color: #444;
+        color: white;
+
+        height: 5%;
+        width: 100%;
+        position: fixed;
+        top: 95%;
+        left: -10px;
+    }
+
+    #footer span{
+        padding-top: 3px;
+        padding-right: 10px;
+        font-size: 20px;
+        float: right;
+    }
+
+
+
+    /*警告文関係\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+    .open {
+        cursor:pointer; /* マウスオーバーでカーソルの形状を変えることで、クリックできる要素だとわかりやすいように */
+    }
+    #pop-up {
+        display: none; /* label でコントロールするので input は非表示に */
+    }
+    .overlay {
+        display: none; /* input にチェックが入るまでは非表示に */
+    }
+    #pop-up:checked + .overlay {
+        display: block;
+        z-index: 9999;
+        background-color: #00000070;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+    }
+    .window {
+        width: 110vw;
+        max-width: 680px;
+        height: 710px;
+        background-color: #000000;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .text {
+        color: white;
+        font-size: 25px;
+        margin: 0;
+    }
+    .close {
+        color: white;
+        cursor:pointer;
+        position: absolute;
+        top: 4px;
+        right: 4px;
+        font-size: 20px;
+    }
+    .close1 {
+        color: white;
+        cursor:pointer;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 50px;
+    }
+
+
+        
+        .ttl {
+        color: #ffffff;
+        font-size: 28px;
+        font-weight: 600;
+        text-align: center;
+        margin: 0;
+        line-height: 1.5;
+        }
+        
+        .keikoku1 {
+        background: #d00000;
+        margin: 5px auto;
+        padding: 5px;
+        }
+
+        .keikoku2 {
+            background: #1f0027;
+            margin: 5px auto;
+            padding: 5px;
+            }
+
+            .keikoku3 {
+                background: #000000;
+                margin: 5px auto;
+                padding: 5px;
+                }
+    /*警告文関係ここまで\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 }
 
-.icon span{
-    margin-top: 0px;
-    font-size: 20px;
-}
-
-/*ホバー時のハイライト表示*/
-#text1:hover{
-    background-color: #ccc;
-}
-
-#text2:hover{
-    background-color: #ccc;
-}
-
-#mail:hover{
-    background-color: #ccc;
-}
-
-#SE:hover{
-    background-color: #ccc;
-}
-
-#readme:hover{
-    background-color: #ccc;
-}
-
-/*ポップアップウインドウの共通設定*/
-.popup{
-    display: none;
-    background-color: white;
-    color: black;
-
-    border: 5px solid #bbb;
-    height: 60%;
-    width: 60%;
-    position: fixed;
-    top:15%;
-    left:20%;
-}
-
-#SEContent{
-    border-color: #333333;
-    color: white;
-}
-
-/*ポップアップウインドウのヘッダー設定*/
-#header{
-    margin: 0px;
-    background-color: #bbb;
-    width: 100%;
-
-    height: 10%;
-    border: none;
-    padding: none;
-    margin: none;
-    top: 0%;
-    float: none;
-    position: absolute;
-
-}
-
-#header input{
-    float: right;
-}
-
-#header table{
-    font-size: 10px;
-}
-
-/*iframe用設定*/
-#SEContent iframe{
-    height: 90%;
-    top: 10%;
-
-    border: none;
-    padding: none;
-    margin: none;
-
-    position: absolute;
-}
-
-#SEContent input{
-    background-color: #333333;
-    color: white;
-}
-
-/*ウインドウのフッター設定*/    
-#footer{
-    background-color: #444;
-    color: white;
-
-    height: 5%;
-    width: 100%;
-    position: fixed;
-    top: 95%;
-    left: -10px;
-}
-
-#footer span{
-    padding-top: 3px;
-    padding-right: 10px;
-    font-size: 20px;
-    float: right;
-}
-
-
-
-/*警告文関係\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
-.open {
-	cursor:pointer; /* マウスオーバーでカーソルの形状を変えることで、クリックできる要素だとわかりやすいように */
-}
-#pop-up {
-	display: none; /* label でコントロールするので input は非表示に */
-}
-.overlay {
-	display: none; /* input にチェックが入るまでは非表示に */
-}
-#pop-up:checked + .overlay {
-	display: block;
-	z-index: 9999;
-	background-color: #00000070;
-	position: fixed;
-	width: 100%;
-	height: 100vh;
-	top: 0;
-	left: 0;
-}
-.window {
-	width: 110vw;
-	max-width: 880px;
-	height: 790px;
-	background-color: #000000;
-	border-radius: 6px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-.text {
-    color: white;
-	font-size: 25px;
-	margin: 0;
-}
-.close {
-    color: white;
-	cursor:pointer;
-	position: absolute;
-	top: 4px;
-	right: 4px;
-	font-size: 20px;
-}
-.close1 {
-    color: white;
-	cursor:pointer;
-	position: absolute;
-	top: 10px;
-	right: 10px;
-	font-size: 50px;
-}
-
-
+/*小画面用css*/
+@media screen and (max-width: 960px){
+    body{
+        background-size: cover;
+    }
     
 .ttl {
 color: #ffffff;
@@ -254,4 +295,230 @@ padding: 5px;
 
 #header2 input{
     float: right;
+}
+    div{
+        margin: 10px;
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    /*アイコンの設定*/
+    /*テキスト1の位置調整*/
+    #text1{
+        margin-top: 20px;
+    }
+    
+    /*各アイコンの共通設定*/
+    .icon{
+        width: 80px;
+        height: 100px;
+    
+        padding: 10px;
+    }
+    
+    .icon img{
+        background-color: white;
+        width: 80px;
+        height: 80px;
+    }
+    
+    .icon span{
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    
+    /*readmeアイコン用設定*/
+    #readme span{
+        font-size: 15px;
+    }
+    
+    /*ホバー時のハイライト表示*/
+    .icon:hover{
+        background-color: #ccc;
+    }
+    
+    /*ポップアップウィンドウの設定*/
+    /*ポップアップウインドウの共通設定*/
+    .popup{
+        display: none;
+        background-color: white;
+        color: black;
+    
+        border: 5px solid #bbb;
+        height: 60%;
+        width: 60%;
+        position: fixed;
+        top:15%;
+        left:20%;
+    }
+    
+    /*SEContent用設定*/
+    #SEContent{
+        border-color: #333333;
+        color: white;
+    }
+    
+    /*ポップアップウインドウのヘッダー設定*/
+    /*ポップアップウインドウのヘッダー共通設定*/
+    .header{
+        margin: 0px;
+        background-color: #bbb;
+        width: 100%;
+    
+        height: 5%;
+        border: none;
+        padding: none;
+        margin: none;
+        top: 0%;
+        float: none;
+        position:relative;
+    }
+    
+    .header input{
+        float: right;
+    }
+    
+    .header table{
+        height: 10%;
+        font-size: 10px;
+    }
+    
+    .header p{
+        font-size: 20px;
+    }
+    
+    /*SEContent用設定*/
+    #SEContent input{
+        background-color: #333333;
+        color: white;
+    }
+    
+    /*iframeの設定*/
+    /*iframeの共通設定*/
+    .iframe{
+        height: 95%;
+        top: 5%;
+    
+        border: none;
+        padding: none;
+        margin: none;
+    
+        position: absolute;
+    }
+    
+    /*SEContent用設定*/
+    #SEContent iframe{
+        height: 90%;
+        top: 10%;
+    }
+    
+    /*ウインドウのフッター設定*/    
+    #footer{
+        background-color: #444;
+        color: white;
+    
+        height: 5%;
+        width: 100%;
+        position: fixed;
+        top: 95%;
+        left: -10px;
+    }
+    
+    #footer span{
+        padding-top: 3px;
+        padding-right: 10px;
+        font-size: 20px;
+        float: right;
+    }
+    
+    
+    
+    /*警告文関係\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+    .open {
+        cursor:pointer; /* マウスオーバーでカーソルの形状を変えることで、クリックできる要素だとわかりやすいように */
+    }
+    #pop-up {
+        display: none; /* label でコントロールするので input は非表示に */
+    }
+    .overlay {
+        display: none; /* input にチェックが入るまでは非表示に */
+    }
+    #pop-up:checked + .overlay {
+        display: block;
+        z-index: 9999;
+        background-color: #00000070;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+    }
+    .window {
+        width: 110vw;
+        max-width: 680px;
+        height: 710px;
+        background-color: #000000;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .text {
+        color: white;
+        font-size: 25px;
+        margin: 0;
+    }
+    .close {
+        color: white;
+        cursor:pointer;
+        position: absolute;
+        top: 4px;
+        right: 4px;
+        font-size: 20px;
+    }
+    .close1 {
+        color: white;
+        cursor:pointer;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 50px;
+    }
+    
+    
+        
+        .ttl {
+        color: #ffffff;
+        font-size: 28px;
+        font-weight: 600;
+        text-align: center;
+        margin: 0;
+        line-height: 1.5;
+        }
+        
+        .keikoku1 {
+        background: #d00000;
+        margin: 5px auto;
+        padding: 5px;
+        }
+    
+        .keikoku2 {
+            background: #1f0027;
+            margin: 5px auto;
+            padding: 5px;
+            }
+    
+            .keikoku3 {
+                background: #000000;
+                margin: 5px auto;
+                padding: 5px;
+                }
+    /*警告文関係ここまで\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 }
