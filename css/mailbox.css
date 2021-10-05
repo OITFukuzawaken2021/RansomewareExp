@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+.f-container  {
+    display:flex;
+    flex-direction: row; 
+    flex-wrap:nowrap;
+    height:580px;
+    margin:0 0 1em;
+  }
+
+.mailList{
+    width: 40%;
+    height: 570px;
+    background-color:#FFF;
+    order: 1;
+}
+
+.mailArea{
+    width: 60%;
+    height: 570px;
+    background-color:#00F;
+    order: 2;
+    float: none;
+}
+.mailArea input{
+    float: right;
+}
+
+.popup{
+    display: none;
+    background-color: white;
+}
+
+
+body {
+    background-image: url("../images/草原.bmp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height:100%;
+}
