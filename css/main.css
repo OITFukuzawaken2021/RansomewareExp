@@ -267,7 +267,7 @@
     }
     
     div{
-        margin: 10px;
+        margin: 3px;
     }
     
     a{
@@ -278,31 +278,31 @@
     /*アイコンの設定*/
     /*テキスト1の位置調整*/
     #text1{
-        margin-top: 20px;
+        margin-top: 6px;
     }
     
     /*各アイコンの共通設定*/
     .icon{
-        width: 80px;
-        height: 100px;
+        width: 40px;
+        height: 50px;
     
-        padding: 10px;
+        padding: 3px;
     }
     
     .icon img{
         background-color: white;
-        width: 80px;
-        height: 80px;
+        width: 40px;
+        height: 40px;
     }
     
     .icon span{
         margin-top: 0px;
-        font-size: 20px;
+        font-size: 10px;
     }
     
     /*readmeアイコン用設定*/
     #readme span{
-        font-size: 15px;
+        font-size: 5px;
     }
     
     /*ホバー時のハイライト表示*/
@@ -317,7 +317,7 @@
         background-color: white;
         color: black;
     
-        border: 5px solid #bbb;
+        border: 2px solid #bbb;
         height: 60%;
         width: 60%;
         position: fixed;
@@ -353,11 +353,11 @@
     
     .header table{
         height: 10%;
-        font-size: 10px;
+        font-size: 4px;
     }
     
     .header p{
-        font-size: 20px;
+        font-size: 10px;
     }
     
     /*SEContent用設定*/
@@ -394,13 +394,13 @@
         width: 100%;
         position: fixed;
         top: 95%;
-        left: -10px;
+        left: 0px;
     }
     
     #footer span{
-        padding-top: 3px;
-        padding-right: 10px;
-        font-size: 20px;
+        padding-top: 2px;
+        padding-right: 50px;
+        font-size: 10px;
         float: right;
     }
     
