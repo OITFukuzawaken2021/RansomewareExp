@@ -2,7 +2,7 @@
 //テキスト1の表示
 function pushText1(){
     document.getElementById("textContent1").style.display="block";
-    document.getElementById("title").innerHTML="新しいタブ";
+    document.getElementById("title").innerHTML="";
     document.getElementById("link").innerHTML="https://oitfukuzawaken2021.github.io/RansomwareExp/html/text.html";
 }
 //テキスト1の非表示
@@ -63,7 +63,7 @@ function CloseReadmeContent(){
 
 //リンク情報の書き換え
 function toHP(){
-    document.getElementById("title").innerHTML="新しいタブ";
+    document.getElementById("title").innerHTML="";
     document.getElementById("link").innerHTML=url;
 }
 
