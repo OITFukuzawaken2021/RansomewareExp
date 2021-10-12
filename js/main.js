@@ -101,3 +101,7 @@ function timer(){
 
     document.getElementById("timer").innerHTML = time;
 }
+
+function RunRansam(){
+    document.getElementById("pop-up").checked = true;
+}

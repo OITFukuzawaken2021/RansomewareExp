@@ -14,5 +14,5 @@ function toRANSOMHP(){
     //ここで親要素の#titleと#linkを書き換え
     parent.document.getElementById("title").innerHTML="ランサムウェア";
     parent.document.getElementById("link").innerHTML="https://oitfukuzawaken2021.github.io/RansomwareExp/html/ransom.html";
-    parent.document.getElementById("pop-up").checked = true;
+    parent.RunRansam();
 }
