@@ -29,7 +29,7 @@ function CloseMailContent(){
 }
 
 //検索エンジン用のURLの定義
-url = "https://oitfukuzawaken2021.github.io/RansomwareExp/html/SEFrame.html";
+url = "/RansomwareExp/html/SEFrame.html";
 
 //検索エンジンの表示
 function pushSE(){

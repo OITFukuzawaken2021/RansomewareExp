@@ -305,12 +305,12 @@
     
     .icon span{
         margin-top: 0px;
-        font-size: 10px;
+        font-size: 20px;
     }
     
     /*readmeアイコン用設定*/
     #readme span{
-        font-size: 5px;
+        font-size: 10px;
     }
     
     /*ホバー時のハイライト表示*/
@@ -362,11 +362,11 @@
     table{
         height: 20% !important;
         width: 100% !important;
-        font-size: 3px !important;
+        font-size: 5px !important;
     }
     
     .header p{
-        font-size: 10px;
+        font-size: 20px;
     }
     
     /*SEContent用設定*/
@@ -409,7 +409,7 @@
     #footer span{
         padding-top: 2px;
         padding-right: 50px;
-        font-size: 10px;
+        font-size: 20px;
         float: right;
     }
     
