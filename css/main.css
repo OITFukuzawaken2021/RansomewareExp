@@ -195,6 +195,14 @@ a{
     position:fixed;
     top: 10%;
     left:20%;   
+    width:80%;
+    height:80%;    
+}
+
+#mailContent iframe{
+    position:absolute;
+    width:80%;
+    height:100%;
 }
 
 .Inbox{
