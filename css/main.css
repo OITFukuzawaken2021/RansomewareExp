@@ -2,29 +2,29 @@
 
 /*大画面用css*/
 @media screen and (min-width: 960px){
-    body{
-        background-size: cover;
-    }
+body{
+    background-size: cover;
+}
 
-    div{
-        margin: 10px;
-    }
+div{
+    margin: 10px;
+}
 
-    a{
-        color: white;
-        text-decoration: none;
-    }
+a{
+    color: white;
+    text-decoration: none;
+}
 
-    /*アイコンの設定*/
-    /*テキスト1の位置調整*/
-    #text1{
-        margin-top: 20px;
-    }
+/*アイコンの設定*/
+/*テキスト1の位置調整*/
+#text1{
+    margin-top: 20px;
+}
 
-    /*各アイコンの共通設定*/
-    .icon{
-        width: 80px;
-        height: 100px;
+/*各アイコンの共通設定*/
+.icon{
+    width: 80px;
+    height: 100px;
 
     padding: 10px;
     z-index: 20;
