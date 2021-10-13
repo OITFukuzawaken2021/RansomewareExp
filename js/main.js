@@ -34,7 +34,7 @@ url = "/RansomwareExp/html/SEFrame.html";
 //検索エンジンの表示
 function pushSE(){
     document.getElementById("SEContent").style.display="block";
-    document.getElementById("title").innerHTML="新しいタブ";
+    document.getElementById("title").innerHTML="";
     document.getElementById("link").innerHTML=url;
 }
 //検索エンジンの非表示
@@ -64,6 +64,7 @@ function CloseReadmeContent(){
 //リンク情報の書き換え
 function toHP(){
     document.getElementById("title").innerHTML="";
+    document.getElementById("title").style.fontSize="100%";
     document.getElementById("link").innerHTML=url;
 }
 
