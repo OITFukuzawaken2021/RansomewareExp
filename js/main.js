@@ -36,6 +36,9 @@ function pushSE(){
     document.getElementById("SEContent").style.display="block";
     document.getElementById("title").innerHTML="";
     document.getElementById("link").innerHTML=url;
+
+    document.getElementById("SEFrame").style.setProperty("--iframe-height",
+    window.innerHeight*0.6 - document.getElementById("SEContentHeader").scrollHeight);
 }
 //検索エンジンの非表示
 function CloseSEContent(){
