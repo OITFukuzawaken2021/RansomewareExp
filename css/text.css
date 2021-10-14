@@ -8,7 +8,7 @@
 .erea {
 	height: calc( 1.3em * 20 );
 	line-height: 1.3;
-	width: calc(100% - 1em);
+	width: calc(100% - 2em);
 }
 
 .menu {

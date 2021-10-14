@@ -379,6 +379,7 @@
     /*iframeの共通設定*/
     .iframe{
         height: 95%;
+        width: 100%;
         top: 5%;
     
         border: none;
