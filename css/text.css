@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.title  {
+    text-align: left;
+	color: rgb(104, 104, 104);
+  }
+
+.erea {
+	height: calc( 1.3em * 20 );
+	line-height: 1.3;
+	width: calc(100% - 2em);
+}
+
+.menu {
+    position: absolute;
+	left: -50px;
+	top: 18px;
+	color: rgb(104, 104, 104);
+	font-size: small;
+}
+
+li {
+	display: inline;
+}
+
+li:hover {
+	background: rgb(219, 219, 219);
+}
