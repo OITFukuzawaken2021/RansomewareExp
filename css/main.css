@@ -172,7 +172,7 @@
     .window {
         width: 110vw;
         max-width: 680px;
-        height: 620px;
+        height: 94%;
         background-color: #000000;
         border-radius: 6px;
         display: flex;
