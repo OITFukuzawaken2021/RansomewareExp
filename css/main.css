@@ -313,11 +313,6 @@
         font-size: 20px;
     }
     
-    /*readmeアイコン用設定*/
-    #readme span{
-        font-size: 10px;
-    }
-    
     /*ホバー時のハイライト表示*/
     .icon:hover{
         background-color: #ccc;
