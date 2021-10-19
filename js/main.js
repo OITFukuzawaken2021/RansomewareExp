@@ -109,4 +109,6 @@ function timer(){
 
 function RunRansam(){
     document.getElementById("pop-up").checked = true;
+    text1.location = "../html/ENCtext.html";
+    text2.location = "../html/ENCtext2.html";
 }
