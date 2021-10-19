@@ -107,6 +107,10 @@ function timer(){
     document.getElementById("timer").innerHTML = time;
 }
 
+function ReLoad(){
+    document.getElementById("mailContent").contentWindow.location.reload();
+}
+
 function RunRansam(){
-    document.getElementById("pop-up").checked = true;
+   top.document.getElementById("pop-up").checked = true;
 }

@@ -13,3 +13,10 @@ h6{
  color:#ccc;
  margin: 0%;
 }
+
+.URL{
+    color: #0000ff;
+}
+.URL:hover {
+    background-color: #ccc;
+  }
