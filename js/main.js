@@ -37,6 +37,8 @@ function pushSE(){
     document.getElementById("title").innerHTML="";
     document.getElementById("link").innerHTML=url;
 
+    SEFrame.location = "../html/SEFrame.html";
+
     document.getElementById("SEFrame").style.setProperty("--iframe-height",
     window.innerHeight*0.6 - document.getElementById("SEContentHeader").scrollHeight);
 }
