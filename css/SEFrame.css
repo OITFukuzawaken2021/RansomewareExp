@@ -11,16 +11,16 @@ table{
     text-align: center;
 }
 .title{
-    font-size: 50px;
+    font-size: 15vh;
 }
 .input{
     margin-right: none;
     padding-right: none;
 }
 td{
-    padding: 30px;
+    padding: 8vh;
 }
 
 table{
-    font-size: 10px
+    font-size: 3vh;
 }
