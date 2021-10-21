@@ -62,3 +62,11 @@ function pushbutton(){
 function Closebutton(){
     document.getElementById("botan").style.display="none";
 }
+
+function Runmailtop(){
+    top.RunRansam();
+}
+
+function Runmailparent(){
+    parent.RunRansam();
+}
