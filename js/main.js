@@ -37,6 +37,8 @@ function pushSE(){
     document.getElementById("title").innerHTML="";
     document.getElementById("link").innerHTML=url;
 
+    SEFrame.location = "./html/SEFrame.html";
+
     document.getElementById("SEFrame").style.setProperty("--iframe-height",
     window.innerHeight*0.6 - document.getElementById("SEContentHeader").scrollHeight);
 }
@@ -112,5 +114,7 @@ function ReLoad(){
 }
 
 function RunRansam(){
-   top.document.getElementById("pop-up").checked = true;
+    document.getElementById("pop-up").checked = true;
+    text1.location = "../html/ENCtext.html";
+    text2.location = "../html/ENCtext2.html";
 }
