@@ -17,12 +17,24 @@
 }
 .mailname{
     margin:0%;
+    width:100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
 }
 .mailTitle{
     margin:0%;
+    width:100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
 }
 .mailbun{
     margin:0%;
+    width:100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
 }
 
 .mailArea{
@@ -63,7 +75,16 @@ ul {
     height:96%;
     margin:0%;
     padding:10px;
+
+     /* IE, Edge 対応 */
+     -ms-overflow-style: none;
+     /* Firefox 対応 */
+     scrollbar-width: none;
 }
+
+ul::-webkit-scrollbar {
+    display:none;
+  }
 
 li {
 	list-style-type:none;

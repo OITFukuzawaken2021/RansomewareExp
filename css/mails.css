@@ -9,6 +9,20 @@ b{
     text-align: left;
     font-size: 10px;
 }
+
+h1{
+    width:100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+}
+h2{
+    width:100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+}
+
 h6{
  color:#ccc;
  margin: 0%;
