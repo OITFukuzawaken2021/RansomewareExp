@@ -241,13 +241,13 @@
         top: 10%;
         left:20%;   
         width:80%;
-        height:80%;    
+        height:80%;  
     }
     
     #mailContent iframe{
         position:absolute;
         width:80%;
-        height:100%;
+        height:90%;
     }
     
     .Inbox{
@@ -270,6 +270,7 @@
     #header2 input{
         float: right;
     }
+    /*メール関連終了\\\\\\\\\\\\\\\\\\\*/
 }
 
 /*小画面用css*/
@@ -516,7 +517,7 @@
     #mailContent iframe{
         position:absolute;
         width:80%;
-        height:100%;
+        height:90%;
     }
     
     .Inbox{
