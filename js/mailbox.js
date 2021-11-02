@@ -63,9 +63,7 @@ function Closebutton(){
     document.getElementById("botan").style.display="none";
 }
 
-function Runmailtop(){
-    top.RunRansam();
-}
+
 
 function Runmailparent(){
     parent.RunRansam();
@@ -75,9 +73,9 @@ let clicked;
 
 let bot = document.getElementsByClassName('bot');
 
-bot.addEventListener('click', function () {
+bot.addEventListener('click', function Runmailtop() {
     if (clicked !== true) {
-        top.RunRamsam();
+        top.RunRansam();
     }
     clicked = true;
 });
