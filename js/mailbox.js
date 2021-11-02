@@ -63,19 +63,20 @@ function Closebutton(){
     document.getElementById("botan").style.display="none";
 }
 
-let clicked;
+let clickedt;
+let clickedp;
 
 function Runmailtop(){
-    if (clicked !== true) {
-        top.RunRansam();
+    if (clickedt !== true) {
+        top.RunRansamT();
     }
-    clicked = true;
+    clickedt = true;
 }
 
 function Runmailparent(){
-    if (clicked !== true) {
-        parent.RunRansam();
+    if (clickedp !== true) {
+        parent.RunRansamP();
     }
-    clicked = true;
+    clickedp = true;
 }
 

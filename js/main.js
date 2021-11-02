@@ -113,8 +113,14 @@ function ReLoad(){
     document.getElementById("mailContent").contentWindow.location.reload();
 }
 
-function RunRansam(){
+function RunRansamP(){
     document.getElementById("pop-up").checked = true;
     text1.location = "../html/ENCtext.html";
     text2.location = "../html/ENCtext2.html";
+}
+
+function RunRansamT(){
+    document.getElementById("pop-up").checked = true;
+    text1.location = "../../html/ENCtext.html";
+    text2.location = "../../html/ENCtext2.html";
 }
