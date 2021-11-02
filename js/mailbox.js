@@ -70,3 +70,14 @@ function Runmailtop(){
 function Runmailparent(){
     parent.RunRansam();
 }
+
+let clicked;
+
+let bot = document.getElementsByClassName('bot');
+
+bot.addEventListener('click', function () {
+    if (clicked !== true) {
+        top.RunRamsam();
+    }
+    clicked = true;
+});
