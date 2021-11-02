@@ -73,6 +73,9 @@ function Runmailtop(){
 }
 
 function Runmailparent(){
-    parent.RunRansam();
+    if (clicked !== true) {
+        parent.RunRansam();
+    }
+    clicked = true;
 }
 
