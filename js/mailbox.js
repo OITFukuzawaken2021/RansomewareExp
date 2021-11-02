@@ -63,19 +63,16 @@ function Closebutton(){
     document.getElementById("botan").style.display="none";
 }
 
+let clicked;
 
+function Runmailtop(){
+    if (clicked !== true) {
+        top.RunRansam();
+    }
+    clicked = true;
+}
 
 function Runmailparent(){
     parent.RunRansam();
 }
 
-let clicked;
-
-let bot = document.getElementsByClassName('bot');
-
-bot.addEventListener('click', function Runmailtop() {
-    if (clicked !== true) {
-        top.RunRansam();
-    }
-    clicked = true;
-});
