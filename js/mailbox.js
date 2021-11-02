@@ -48,11 +48,11 @@ function pushmail8(){
 function Closemail8(){
     document.getElementById("mail8").style.display="none";
 }
-function pushmail9(){
-    document.getElementById("mail9").style.display="block";
+function pushmail99(){
+    document.getElementById("mail99").style.display="block";
 }
-function Closemail9(){
-    document.getElementById("mail9").style.display="none";
+function Closemail99(){
+    document.getElementById("mail99").style.display="none";
 }
 
 
