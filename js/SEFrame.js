@@ -17,5 +17,5 @@ function toRANSOMHP(){
     parent.document.getElementById("title").innerHTML="ランサムウェア";
     parent.document.getElementById("title").style.fontSize="80%";
     parent.document.getElementById("link").innerHTML="/RansomwareExp/html/ransom.html";
-    parent.RunRansam();
+    parent.RunRansamP();
 }
